@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ประวัติส่วนตัว | นายสมชาย ใจดี (Resume)</title>
+    <title>ประวัติส่วนตัว | กานต์ธิดา เปรื่องนนท์ (Resume)</title>
     <style>
         :root {
             --primary: #1e293b;
@@ -13,21 +13,21 @@
             --text: #334155;
             --text-light: #64748b;
         }
-       
+        
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
- 
+
         body {
             background-color: var(--bg);
             color: var(--text);
             line-height: 1.6;
             padding: 2rem 1rem;
         }
- 
+
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -36,7 +36,7 @@
             border-radius: 12px;
             box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
         }
- 
+
         /* Header Section */
         header {
             text-align: center;
@@ -44,7 +44,7 @@
             padding-bottom: 2rem;
             margin-bottom: 2rem;
         }
- 
+
         .profile-img {
             width: 130px;
             height: 130px;
@@ -53,20 +53,20 @@
             margin-bottom: 1rem;
             object-fit: cover;
         }
- 
+
         header h1 {
             color: var(--primary);
             font-size: 2.5rem;
             margin-bottom: 0.5rem;
         }
- 
+
         header p.subtitle {
             color: var(--accent);
             font-size: 1.2rem;
             font-weight: 600;
             margin-bottom: 1rem;
         }
- 
+
         .contact-info {
             display: flex;
             justify-content: center;
@@ -75,22 +75,22 @@
             color: var(--text-light);
             font-size: 0.95rem;
         }
- 
+
         .contact-info a {
             color: var(--text-light);
             text-decoration: none;
             transition: color 0.2s;
         }
- 
+
         .contact-info a:hover {
             color: var(--accent);
         }
- 
+
         /* Section Layout */
         section {
             margin-bottom: 2.5rem;
         }
- 
+
         section h2 {
             color: var(--secondary);
             font-size: 1.5rem;
@@ -100,47 +100,47 @@
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
- 
+
         /* Experience & Education Item */
         .item {
             margin-bottom: 1.5rem;
         }
- 
+
         .item-header {
             display: flex;
             justify-content: space-between;
             align-items: baseline;
             margin-bottom: 0.25rem;
         }
- 
+
         .item-title {
             font-weight: 700;
             color: var(--primary);
         }
- 
+
         .item-company {
             font-weight: 600;
             color: var(--accent);
         }
- 
+
         .item-date {
             color: var(--text-light);
             font-size: 0.9rem;
         }
- 
+
         .item ul {
             padding-left: 1.25rem;
             margin-top: 0.5rem;
             color: var(--text);
         }
- 
+
         /* Skills Badges */
         .skills-grid {
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
         }
- 
+
         .badge {
             background-color: #eff6ff;
             color: var(--accent);
@@ -149,13 +149,13 @@
             font-size: 0.9rem;
             font-weight: 500;
         }
- 
+
         /* Actions / Buttons */
         .cta-container {
             text-align: center;
             margin-top: 3rem;
         }
- 
+
         .btn {
             display: inline-block;
             background-color: var(--accent);
@@ -166,11 +166,11 @@
             font-weight: 600;
             transition: background-color 0.2s;
         }
- 
+
         .btn:hover {
             background-color: #1d4ed8;
         }
- 
+
         /* Responsive Layout */
         @media (max-width: 600px) {
             .container { padding: 1.5rem; }
@@ -181,7 +181,7 @@
     </style>
 </head>
 <body>
- 
+
 <div class="container">
     <header>
         <!-- สามารถใส่ URL รูปภาพโปรไฟล์ของคุณใน src -->
@@ -195,15 +195,15 @@
             <span>🔗 <a href="https://linkedin.com" target="_blank">LinkedIn</a></span>
         </div>
     </header>
- 
+
     <section id="about">
         <h2>เกี่ยวกับฉัน</h2>
         <p>นักพัฒนาเว็บไซต์ที่มีความกระตือรือร้นและประสบการณ์กว่า 3 ปีในการสร้างสรรค์ Web Application ที่ใช้งานง่าย มีความเชี่ยวชาญด้านการเขียนโค้ดที่สะอาด (Clean Code) และการปรับแต่งประสิทธิภาพของระบบหน้าบ้าน (Frontend Optimization)</p>
     </section>
- 
+
     <section id="experience">
         <h2>ประสบการณ์การทำงาน</h2>
-       
+        
         <div class="item">
             <div class="item-header">
                 <span class="item-title">Senior Web Developer — <span class="item-company">Tech Innovation Co.</span></span>
@@ -214,7 +214,7 @@
                 <li>ออกแบบโครงสร้างฐานข้อมูลใหม่ ช่วยลดเวลาโหลดของหน้าเว็บลง 1.5 วินาที</li>
             </ul>
         </div>
- 
+
         <div class="item">
             <div class="item-header">
                 <span class="item-title">Junior Developer — <span class="item-company">Digital Solutions Agency</span></span>
@@ -226,7 +226,7 @@
             </ul>
         </div>
     </section>
- 
+
     <section id="skills">
         <h2>ทักษะความชำนาญ</h2>
         <div class="skills-grid">
@@ -239,7 +239,7 @@
             <span class="badge">Responsive Design</span>
         </div>
     </section>
- 
+
     <section id="education">
         <h2>ประวัติการศึกษา</h2>
         <div class="item">
@@ -250,13 +250,12 @@
             <p style="color: var(--text-light);">มหาวิทยาลัยนวัตกรรมเทคโนโลยี</p>
         </div>
     </section>
- 
+
     <div class="cta-container">
         <!-- ใส่ลิงก์สำหรับดาวน์โหลดไฟล์ PDF เรซูเม่ฉบับเต็มของคุณที่นี่ -->
         <a href="#" class="btn">⬇️ ดาวน์โหลดเรซูเม่ฉบับ PDF</a>
     </div>
 </div>
- 
+
 </body>
 </html>
- 
